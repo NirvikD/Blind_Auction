@@ -10,8 +10,9 @@ def find_winner(bidder_details):
     print(f"The winner is {winner} with a bidding price of {highest_bid}")
 bidder_data={}
 end = False
-from art import logo2
-print(logo2)
+from art import *
+
+tprint("Blind Auction",font="random")
 while not end:
     name = input("What is your name ?: ")
     price = int(input("Enter the bid: "))
